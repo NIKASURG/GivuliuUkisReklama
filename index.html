@@ -11,13 +11,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script>
-            $(document).ready(function () {
-                $('#exampleModal').modal('show');
-            
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#exampleModal').modal('show');
+
             let cendzura = true;
             let rodyti = document.getElementById("rodyti");
             let nerodyti = document.getElementById("nerodyti");
@@ -25,52 +25,53 @@
             rodyti.addEventListener("click", function () {
                 cendzura = false;
                 cendzuravimas()
-            
+
             });
             nerodyti.addEventListener("click", function () {
                 cendzura = true;
                 cendzuravimas()
             });
-            function cendzuravimas(){
-                
-                if(!cendzura){
+            function cendzuravimas() {
+
+                if (!cendzura) {
                     pav5.style.filter = "blur(0px)";
-                
-            
-                }else{
+
+
+                } else {
                     pav5.style.filter = "blur(10px)";
-                
+
                 }
             }
-        
-            });
-        </script>
+
+        });
+    </script>
 </head>
 
 <body class=" w-100 h-100">
-    <div  class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div  class="modal-dialog">
-          <div style="background-color: rgba(143, 16, 16, 0.884);" class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Įspėjimas</h5>
-           
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div style="background-color: rgba(143, 16, 16, 0.884);" class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Įspėjimas</h5>
+
+                </div>
+                <div class="modal-body">
+                    Puslapija yra žiaurių vaizdų. Ar norite jog jie butu cendzuruojami?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="rodyti">Rodyti</button>
+                    <button type="button" class="btn btn-primary" id="nerodyti"
+                        data-bs-dismiss="modal">Cendzuruoti</button>
+                </div>
             </div>
-            <div class="modal-body">
-                Puslapija yra žiaurių vaizdų. Ar norite jog jie butu cendzuruojami?
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="rodyti">Rodyti</button>
-              <button type="button" class="btn btn-primary" id="nerodyti" data-bs-dismiss="modal">Cendzuruoti</button>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
     <div class="bg-image">
     </div>
- 
+
     <div class="bg-text">
-        
+
         <div class="container">
             <div class="row">
                 <div class="g-col-6 border shadow-lg">
@@ -78,12 +79,13 @@
                         <div class="row gx-5">
                             <div class="col">
                                 <div class="p-3">
-                                    <h1 class="title text">Atraskite Džordžo Orvelo klasikinį kūrinį „Gyvulių ūkis“!
+                                    <h1 class="title text">Atraskite Džordžo Orvelo kūrinį „Gyvulių ūkis“!
                                     </h1>
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="p-3"> <img src="pav1.jpeg" class="opacity-75 rounded-2 shadow-lg"></img></div>
+                                <div class="p-3"> <img src="pav1.jpeg" class="opacity-75 rounded-2 shadow-lg"></img>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -95,17 +97,21 @@
                         <div class="row gx-5">
                             <div class="col">
                                 <div class="p-3">
-                                
-                                    <div class="p-3"> <img class="opacity-75 w-50 h-50 rounded-5 shadow-lg" src="pav3.jpeg"></img></div>
+
+                                    <div class="p-3"> <img class="opacity-75 w-50 h-50 rounded-5 shadow-lg"
+                                            src="pav3.jpeg"></img></div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="p-3">
-                                    
-                                    <div style="background-color: rgba(15, 7, 7, 0.288);" >
-                                        <p class="text">Ar norite pasinerti į pasaulį, kur gyvuliai svajoja apie laisvę ir lygybę? Džordžo
-                                            Orvelo „Gyvulių ūkis“ - tai alegorinė pasaka, kuri atskleidžia žmonijos trūkumus ir politinių
-                                            sistemų silpnybes. Šis nepaprastai aktualus kūrinys privers susimąstyti apie mūsų pačių
+
+                                    <div style="background-color: rgba(15, 7, 7, 0.288);">
+                                        <p class="text">Ar norite pasinerti į pasaulį, kur gyvuliai svajoja apie laisvę
+                                            ir lygybę? Džordžo
+                                            Orvelo „Gyvulių ūkis“ - tai alegorinė pasaka, kuri atskleidžia žmonijos
+                                            trūkumus ir politinių
+                                            sistemų silpnybes. Šis nepaprastai aktualus kūrinys privers susimąstyti apie
+                                            mūsų pačių
                                             visuomenę ir
                                             jos principus.</p>
                                     </div>
@@ -113,58 +119,67 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="g-col-6 border shadow-lg">
                     <div class="container overflow-hidden text-center">
                         <div class="row gx-5">
                             <div class="col">
                                 <div class="p-3">
-                                    
-                                    <div style="background-color: rgba(15, 7, 7, 0.288);" >
-                                    
-                                    <p class="text">Knygoje „Gyvulių ūkis“ susidursite su charizmatiškais personažais, tokiais kaip
-                                            Napoleonas ir Sniegius, kurie simbolizuoja tikrus istorinius veikėjus ir jų kovą dėl valdžios.
-                                            Orvelo meistriškas pasakojimas ir simbolika sukuria įtaigią ir įsimintiną istoriją, kuri
+
+                                    <div style="background-color: rgba(15, 7, 7, 0.288);">
+
+                                        <p class="text">Knygoje „Gyvulių ūkis“ susidursite su charizmatiškais
+                                            personažais, tokiais kaip
+                                            Napoleonas ir Sniegius, kurie simbolizuoja tikrus istorinius veikėjus ir jų
+                                            kovą dėl valdžios.
+                                            Orvelo meistriškas pasakojimas ir simbolika sukuria įtaigią ir įsimintiną
+                                            istoriją, kuri
                                             nepaliks abejingų.</p>
-                                   
-                                </div></div>
-                                </div>
-                                    <div class="col">
-                                        <div class="p-3">
-                                        
-                                            <div class="p-3"> <img id="pav4" class="opacity-75 w-75 h-75 rounded-5" src="pav4.jpeg"></img></div>
-                                        </div>
+
                                     </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="p-3">
+
+                                    <div class="p-3"> <img id="pav4" class="opacity-75 w-75 h-75 rounded-5"
+                                            src="pav4.jpeg"></img></div>
+                                </div>
+                            </div>
                         </div>
-                        </div>
-                    
+                    </div>
+
                 </div>
                 <div class="g-col-6 border shadow-lg">
                     <div class="container overflow-hidden text-center">
                         <div class="row gx-5">
                             <div class="col">
-                                        <div class="p-3">
-                                        
-                                            <div class="p-3"> <img id="pav5" class="opacity-75 w-100 h-100 rounded-1" src="pav5.jpeg"></img></div>
-                                        </div>
-                                    </div>
+                                <div class="p-3">
+
+                                    <div class="p-3"> <img id="pav5" class="opacity-75 w-100 h-100 rounded-1"
+                                            src="pav5.jpeg"></img></div>
+                                </div>
+                            </div>
                             <div class="col">
                                 <div class="p-3">
-                                    
-                                    <div style="background-color: rgba(15, 7, 7, 0.288);" >
-                                    
-                                    <p class="text">Šis kūrinys - tai ne tik įdomi istorija, bet ir gilus politinis ir socialinis
-                                        komentaras, kurio aktualumas neblėsta. Tai puiki knyga visiems, norintiems geriau suprasti
-                                        totalitarizmo mechanizmus ir žmogaus prigimties sudėtingumą.</p>
-                                   
-                                </div></div>
+
+                                    <div style="background-color: rgba(15, 7, 7, 0.288);">
+
+                                        <p class="text">Šis kūrinys - tai ne tik įdomi istorija, bet ir gilus politinis
+                                            ir socialinis
+                                            komentaras, kurio aktualumas neblėsta. Tai puiki knyga visiems, norintiems
+                                            geriau suprasti
+                                            totalitarizmo mechanizmus ir žmogaus prigimties sudėtingumą.</p>
+
+                                    </div>
                                 </div>
+                            </div>
                         </div>
-                        </div>
-                    
+                    </div>
+
                 </div>
-               
+
                 <div class="g-col-6 border shadow-lg">
                     <p class="text">Nesvarbu, ar esate literatūros entuziastas, ar tiesiog ieškote knygos, kuri
                         praturtintų jūsų pasaulėžiūrą, „Gyvulių ūkis“ yra idealus pasirinkimas. Atraskite šį nesenstantį
@@ -194,22 +209,55 @@
             </div>
         </div>
         <div class="container">
-            <footer class="py-3 my-4">
-              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pradžia</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-              </ul>
-              <p class="text-center text-body-secondary">© 2024 Nikas Surgautas IIa</p>
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+                    <p class="text-center text-body-secondary">© 2024 Nikas Surgautas IIa</p>
+
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"></a></li>
+                    <li class="nav-item"><a href="https://github.com/NIKASURG"
+                            class="nav-link px-2 text-body-secondary">
+                            <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24"
+                                data-view-component="true" class="octicon octicon-mark-github">
+                                <path
+                                    d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="nav-item"><a href="/FAQs.html" class="nav-link px-2 text-body-secondary"><svg
+                                xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="24"
+                                height="24">
+                                <path
+                                    d="M12,0A12,12,0,1,0,24,12,12.013,12.013,0,0,0,12,0Zm0,22A10,10,0,1,1,22,12,10.011,10.011,0,0,1,12,22Z" />
+                                <path
+                                    d="M12.717,5.063A4,4,0,0,0,8,9a1,1,0,0,0,2,0,2,2,0,0,1,2.371-1.967,2.024,2.024,0,0,1,1.6,1.595,2,2,0,0,1-1,2.125A3.954,3.954,0,0,0,11,14.257V15a1,1,0,0,0,2,0v-.743a1.982,1.982,0,0,1,.93-1.752,4,4,0,0,0-1.213-7.442Z" />
+                                <rect x="11" y="17" width="2" height="2" rx="1" />
+                            </svg></a></li>
+                    <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"></a></li> -->
+                    <li class="nav-item"><a href="https://x.com/surgautas" class="nav-link px-2 text-body-secondary">
+                            <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24"
+                                data-view-component="true" class="octicon octicon-mark-github">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+
+
+                </ul>
             </footer>
-          </div>
-    </div>
 
 
-    </div>
-   
 </body>
 
 </html>
