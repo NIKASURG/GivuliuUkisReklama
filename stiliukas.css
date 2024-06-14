@@ -8,3 +8,9 @@ body{
 .text{
     font-family: cursive;
 }
+.mouseon{
+    opacity: 0.95;
+}
+.mouseon:hover {
+    opacity: 1;
+}
