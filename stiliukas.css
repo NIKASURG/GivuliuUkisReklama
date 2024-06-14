@@ -3,7 +3,7 @@
     text-align: center;
 }
 body{
-    background-color: rgb(116, 96, 30);
+    background: rgb(121, 25, 21);
 }
 
 .mouseon{
@@ -47,7 +47,8 @@ body, html {
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 65vw;
+    top: 120%;
+    width: 100vw;
     /* bottom: -150%; */
     left: 50%;
     transform: translate(-50%, -50%);
