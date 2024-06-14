@@ -5,9 +5,7 @@
 body{
     background-color: rgb(116, 96, 30);
 }
-.text{
-    font-family: cursive;
-}
+
 .mouseon{
     opacity: 0.95;
 }
