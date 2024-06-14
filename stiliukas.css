@@ -35,7 +35,7 @@ body, html {
     
     /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
   }
   
@@ -47,7 +47,8 @@ body, html {
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 75%;
+    top: 50vw;
+    /* bottom: -150%; */
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -62,4 +63,8 @@ body, html {
   }
   .navbar-custom {
     background-color: rgb(133, 36, 36);
+}
+#pav5{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
