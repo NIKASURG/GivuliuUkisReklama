@@ -11,9 +11,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+    <script src="main.js"></script>
     <script>
         $(document).ready(function () {
             $('#exampleModal').modal('show');
@@ -43,6 +42,7 @@
                 }
             }
 
+
         });
     </script>
 </head>
@@ -69,7 +69,22 @@
 
     <!-- <div class="bg-image"> -->
     </div>
-
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Džordžo Orvelo kūrinys „Gyvulių ūkis“!</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Pradžia</a></li>
+            <li class="nav-item"><a href="https://www.knygos.lt/lt/knygos/gyvuliu-ukis--2021-/" class="nav-link">Įsigyti</a></li>
+            <li class="nav-item"><a href="https://ibiblioteka.lt/metis/publication?q=y0g1iw29u" class="nav-link">Bibliotekose</a></li>
+            <li class="nav-item"><a href="/GivuliuUkisReklama/FAQs" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="https://youtu.be/R7zAWdd0No4" class="nav-link">Filmukas</a></li>
+          </ul>
+        </header>
+      </div>
 
 
     <div class="container">
@@ -79,7 +94,7 @@
                     <div class="row gx-5">
                         <div class="col">
                             <div class="p-3">
-                                <h1 class="title text">Atraskite Džordžo Orvelo kūrinį „Gyvulių ūkis“!
+                                <h1 class="title text">Kodėl turėtumėte persakityti Givuliu Ūkį?
                                 </h1>
                             </div>
                         </div>
@@ -287,7 +302,7 @@
                         </svg></a></li>
                 <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"></a></li> -->
                 <li class="nav-item"><a href="https://x.com/surgautas" class="nav-link px-2 text-body-secondary">
-                        <svg aria-hidden="true" height="24"
+                        <svg style="color: red;" aria-hidden="true" height="24"
                             viewBox="0 0 24 24                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
                             version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github">
                             <path
@@ -307,10 +322,10 @@
                 Spalva
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
-                <li><a class="dropdown-item" href="#">Šviesus</a></li>
-                <li><a class="dropdown-item" href="#">Tamsus</a></li>
-                <li><a class="dropdown-item" href="#">Kruvinas</a></li>
-                <li><a class="dropdown-item" href="#">Atsitiktinis</a></li>
+                <li><a class="dropdown-item" id="sv">Šviesus</a></li>
+                <li><a class="dropdown-item" id="ta">Tamsus</a></li>
+                <li><a class="dropdown-item" id="kr">Kruvinas</a></li>
+                <li><a class="dropdown-item" id="at">Atsitiktinis</a></li>
             </ul>
         </div>
 
