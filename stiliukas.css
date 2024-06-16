@@ -1,71 +1,82 @@
-
-.dcenter{
-    text-align: center;
-}
-body{
-    background: rgb(121, 25, 21);
+.dcenter {
+  text-align: center;
 }
 
-.mouseon{
-    opacity: 0.95;
+div {
+  display: block;
+  background-color: rgba(228, 228, 245, 0.459);
 }
+
+body {
+  background: rgb(160, 156, 156);
+}
+
+.mouseon {
+  opacity: 0.95;
+}
+
 .mouseon:hover {
-    opacity: 1;
+  opacity: 1;
 }
-body, html {
-    height: 1000px;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  .bg-image {
-    /* The image used */
-    background-image: url("pav2.jpeg");
+
+body,
+html {
+  height: 1000px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+
+  /* background-image: url("pav2.jpeg");
     
-    /* Add the blur effect */
     filter: blur(8px);
     -webkit-filter: blur(8px);
     
-    /* Full height */
     height: 100%; 
     
-    /* Center and scale the image nicely */
+
     background-position: center;
     background-repeat: repeat;
-    background-size: cover;
-  }
-  
-  /* Position text in the middle of the page/image */
-  .bg-text {
-    background-color: rgb(124, 13, 13); /* Fallback color */
-    background-color: rgba(179, 16, 16, 0.329); /* Black w/opacity/see-through */
+    background-size: cover; */
+}
+
+
+.bg-text {
+  /* background-color: rgb(124, 13, 13);     background-color: rgba(179, 16, 16, 0.329);
     color: rgb(233, 228, 228);
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
     top: 135%;
-    /* width: 100vw; */
-    /* bottom: -150%; */
+
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     width: 90%;
     padding: 20px;
-    text-align: center;
-  }
-    @media (max-width: 768px) { 
-      .bg-text {
-        top: 220%;
-      } 
-  }
-  .navbar-custom {
-    background-color: rgb(133, 36, 36);
+    text-align: center; */
 }
-#pav5{
+
+@media (max-width: 768px) {
+  .bg-text {
+    top: 220%;
+  }
+}
+
+.navbar-custom {
+  background-color: rgb(255, 255, 255);
+}
+
+#pav5 {
   filter: blur(8px);
   -webkit-filter: blur(8px);
+}
+
+.textBack {
+  background-color: rgba(228, 228, 245, 0.459);
 }
